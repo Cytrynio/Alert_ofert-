@@ -9,7 +9,7 @@ import os
 
 my_email = "mlukasik277@gmail.com"
 password = os.getenv("EMAIL_PASSWORD")
-APP_KEY = os.getenv("ADZUNA_API_KEY")
+APP_KEY = os.getenv("APP_KEY")
 
 
 
