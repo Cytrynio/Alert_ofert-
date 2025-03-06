@@ -133,6 +133,12 @@ def format_job_listing(job):
 
 def check_for_new_jobs():
     """Main function to check for and send new job listings"""
+    # Sprawdź czy dzisiaj jest dzień roboczy (0=poniedziałek, 6=niedziela w bibliotece time)
+    current_day = time.localtime().tm_wday
+    if current_day >= 5:  # 5=sobota, 6=niedziela
+        logger.info("Dzisiaj jest weekend. Pomijam sprawdzanie ofert.")
+        return
+
     logger.info("Checking for new job listings...")
 
     # Load previously sent jobs
@@ -184,7 +190,12 @@ def main():
     check_for_new_jobs()
 
     # Schedule regular checks
-    schedule.every(3).hour.do(check_for_new_jobs)
+    for hour in [0, 3, 6, 9, 12, 15, 18, 21]:  # Co 3 godziny
+        schedule.every().monday.at(f"{hour:02d}:00").do(check_for_new_jobs)
+        schedule.every().tuesday.at(f"{hour:02d}:00").do(check_for_new_jobs)
+        schedule.every().wednesday.at(f"{hour:02d}:00").do(check_for_new_jobs)
+        schedule.every().thursday.at(f"{hour:02d}:00").do(check_for_new_jobs)
+        schedule.every().friday.at(f"{hour:02d}:00").do(check_for_new_jobs)
     logger.info("Scheduled to check for new jobs every hour")
 
     # Keep the script running
