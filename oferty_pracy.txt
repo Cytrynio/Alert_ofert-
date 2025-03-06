@@ -1,0 +1,181 @@
+Tytuł: Data Warehouse Tester
+Firma: emagine Polska
+Link: https://www.adzuna.pl/land/ad/5079310926?se=cFRceLH67xG5LFlwE8lqtQ&utm_medium=api&utm_source=a68048d5&v=B1EBDB97209E15F6D5E03FB2D83C1EDA81C5F205
+Opis: GENERAL INFORMATION: Industry: banking Location : Gdańsk (hybrid work model) Rate : up to 110 PLN/h netVAT Form of cooperation : B2B Main responsibilities: As a QA Engineer, you will be responsible for: Executing data warehouse testing with a focus on Snowflake. Validating large datasets using SQL. Integrating into existing data architectures and workflows. Automating data validation processes in Snowflake. Collaborating with development teams to ensure project deadlines are met. Key requiremen…
+--------------------------------------------------
+
+Tytuł: Expert IT Automation Tester  AVENGA
+Firma: AVENGA
+Link: https://www.adzuna.pl/land/ad/5079260933?se=cFRceLH67xG5LFlwE8lqtQ&utm_medium=api&utm_source=a68048d5&v=A0D5145931A8F84A7E397075D703778CD456A9A8
+Opis: 2 years of proven experience in software testing Good experience in writing SQL queries and database testing Good hands on experience in API testing using Postman/SoapUI Hands on expertise in writing functional test scenarios, understanding requirements and defect management Good communication skills with work experience in Agile wow Strong experience in QA methodology and able to work in cross functional team Good experience in test automation. Should have hands on experience in script Technol…
+--------------------------------------------------
+
+Tytuł: Manual Tester
+Firma: Jit Team
+Link: https://www.adzuna.pl/land/ad/5077286143?se=cFRceLH67xG5LFlwE8lqtQ&utm_medium=api&utm_source=a68048d5&v=FBBE278902BD8101D8BBD1FA88F4E7D055DAD068
+Opis: Salary: 500 - 800 PLN/day on B2B Work model: elastic hybrid only from Gdynia or Gdańsk (at least 1 day per week from the office) Why choose this offer? You can expect a flexible work organization The international work environment will give you the opportunity to interact with the English language on a daily basis Scandinavian organizational culture will provide you with work-life balance, you will gain time for additional training (financed by Jit) The Jit community will bring you a nice time …
+--------------------------------------------------
+
+Tytuł: Manual Tester
+Firma: Jit Team
+Link: https://www.adzuna.pl/land/ad/5077286146?se=cFRceLH67xG5LFlwE8lqtQ&utm_medium=api&utm_source=a68048d5&v=0AD7A815801DD5A5389EAB5C3B99F87B5BD3DF26
+Opis: Salary: 500 - 800 PLN/day on B2B Work model: elastic hybrid only from Gdynia or Gdańsk (at least 1 day per week from the office) Why choose this offer? You can expect a flexible work organization The international work environment will give you the opportunity to interact with the English language on a daily basis Scandinavian organizational culture will provide you with work-life balance, you will gain time for additional training (financed by Jit) The Jit community will bring you a nice time …
+--------------------------------------------------
+
+Tytuł: Manual Tester
+Firma: Jit Team
+Link: https://www.adzuna.pl/land/ad/5077272661?se=cFRceLH67xG5LFlwE8lqtQ&utm_medium=api&utm_source=a68048d5&v=7101992B9FEE6CE655BE58B675E21D2957A538BA
+Opis: Salary: 300-600 PLN/MD on B2B Model work: flexible hybrid from Gdynia / Gdańsk / Warsaw / Łódź Why choose this offer? You can expect a flexible work organization The international work environment will give you the opportunity to interact with the English language on a daily basis Scandinavian organizational culture will provide you with work-life balance, you will gain time for additional training (financed by Jit) The Jit community will bring you a nice time during regular integration meeting…
+--------------------------------------------------
+
+Tytuł: Manual Tester
+Firma: Jit Team
+Link: https://www.adzuna.pl/land/ad/5077272656?se=cFRceLH67xG5LFlwE8lqtQ&utm_medium=api&utm_source=a68048d5&v=EF877203E5842522F75AC88ADBACF20ECD806366
+Opis: Salary: 300-600 PLN/day on B2B Work model: elastic hybrid from Gdańsk (at least 1 day per week from the office) Why choose this offer? You can expect a flexible work organization The international work environment will give you the opportunity to interact with the English language on a daily basis Scandinavian organizational culture will provide you with work-life balance, you will gain time for additional training (financed by Jit) The Jit community will bring you a nice time during regular in…
+--------------------------------------------------
+
+Tytuł: Manual Tester
+Firma: Jit Team
+Link: https://www.adzuna.pl/land/ad/5077272606?se=cFRceLH67xG5LFlwE8lqtQ&utm_medium=api&utm_source=a68048d5&v=8D5716E66ECA510322E1C113192B14668AC640D6
+Opis: Salary: 300-600 PLN/MD on B2B Model work: flexible hybrid from Gdynia / Gdańsk / Warsaw / Łódź Why choose this offer? You can expect a flexible work organization The international work environment will give you the opportunity to interact with the English language on a daily basis Scandinavian organizational culture will provide you with work-life balance, you will gain time for additional training (financed by Jit) The Jit community will bring you a nice time during regular integration meeting…
+--------------------------------------------------
+
+Tytuł: Tester Manualny
+Firma: Onwelo Sp. z o.o.
+Link: https://www.adzuna.pl/details/5076628520?utm_medium=api&utm_source=a68048d5
+Opis: Wymagane, SQL, Jira, Confluence, Azure DevOps, PostgreSQLSystem operacyjny, WindowsO projekcie, Dołącz do projektu dla naszego klienta z branży ubezpieczeniowej, który poszukuje utalentowanych testerów. Pracując w zespole będziesz odpowiedzialny/-a za wdrożenie core-owej aplikacji oraz kilka aplikacji webowych (w różnych technologiach)., , , Wynagrodzenie: 900 - 1100 PLN netto / dzieńTwój zakres obowiązków, Opracowywanie scenariuszy testowych, przypadków testowych oraz danych testowych zgodnie …
+--------------------------------------------------
+
+Tytuł: Manual Tester with AWS Kendra
+Firma: Sii Sp. z o.o.
+Link: https://www.adzuna.pl/details/5073993035?utm_medium=api&utm_source=a68048d5
+Opis: Expected, AWS KendraAbout the project, Would you like to expand your experience with AWS cloud services, which are rapidly growing in popularity and offer a great investment in your professional development? If so, we have an exciting opportunity for you, We are seeking a Manual QA Tester with experience in AWS Kendra to join a global, fully remote project for a leading healthcare company known for its innovation in diagnostics and pharmaceutical research. In this role, you will be responsible …
+--------------------------------------------------
+
+Tytuł: Tester Oprogramowania - płatny staż
+Firma: Npc
+Link: https://www.adzuna.pl/details/5071814420?utm_medium=api&utm_source=a68048d5
+Opis: Net PC to IT Software House. Specjalizujemy się w budowaniu aplikacji webowych i mobilnych, integrujemy nasze oprogramowanie z innymi systemami. Lubimy duże architektury oraz skomplikowane tematy biznesowe i technologiczne. Pomagamy klientom biznesowym, instytucjonalnym, rządowym . Nasz zespół tworzą Komandosi IT. Co to znaczy? Profesjonaliści, pasjonaci, których do działania motywują wyzwania i różnorodność dziedzinowa budowanych systemów. Jako Komandosi IT sprawdzamy się w każdym terenie, roz…
+--------------------------------------------------
+
+Tytuł: Tester (WMT)
+Firma: Acxiom Global Service Center Polska z o. o.
+Link: https://www.adzuna.pl/details/5071814366?utm_medium=api&utm_source=a68048d5
+Opis: Documents, communicates and suggests remedies for disputed issues/defects using defined standards. Works with cross functional teams in highly collaborative manner. Utilizes test tools, test methodology, best practices and standard quality assurance processes to deliver functional, deployable, supportable and maintainable products and services. JOB ROLE SUMMARY Documents, communicates and suggests remedies for disputed issues/defects using defined standards. Works with cross functional teams in…
+--------------------------------------------------
+
+Tytuł: Senior Automation Tester
+Firma: emagine Polska
+Link: https://www.adzuna.pl/land/ad/5068961303?se=cFRceLH67xG5LFlwE8lqtQ&utm_medium=api&utm_source=a68048d5&v=906FA816A46B33800D6E6687EE45FE98C10586F5
+Opis: PROJECT INFORMATION: Industry: banking Location: Warsaw, Gdynia or Gdańsk (hybrid model: 2 days a week in the office) Remuneration: 160 pln/h VAT Type of assignment: B2B RESPONSIBILITIES: Automated test cases implementation together with framework improvements. Gathering and managing test data needed for testing. Monitoring, debugging and documenting test results. Proactively increasing test coverage. REQUIREMENTS: 3 years of experience with developing and maintaining test automation solutions.…
+--------------------------------------------------
+
+Tytuł: Senior Automation Tester
+Firma: emagine Polska
+Link: https://www.adzuna.pl/land/ad/5068961302?se=cFRceLH67xG5LFlwE8lqtQ&utm_medium=api&utm_source=a68048d5&v=56A57C7EC8D14C2B695FA2ED689EEB773CAB88D4
+Opis: PROJECT INFORMATION: Industry: banking Location: Warsaw, Gdynia or Gdańsk (hybrid model: 2 days a week in the office) Remuneration: 160 pln/h VAT Type of assignment: B2B RESPONSIBILITIES: Automated test cases implementation together with framework improvements. Gathering and managing test data needed for testing. Monitoring, debugging and documenting test results. Proactively increasing test coverage. REQUIREMENTS: 3 years of experience with developing and maintaining test automation solutions.…
+--------------------------------------------------
+
+Tytuł: Remote Quality Assurance - Tester
+Firma: Montrose Software
+Link: https://www.adzuna.pl/land/ad/5065818770?se=cFRceLH67xG5LFlwE8lqtQ&utm_medium=api&utm_source=a68048d5&v=C3042F9FE298266117884E2C8E764B65BE92FDDC
+Opis: Project description: The aim of the project is to create a modernized library website from scratch and meet the needs of both library staff and patrons. This brand-new platform will revolutionize the way users find and access relevant content, resources, and services, supporting their education, research, and teaching endeavors. The key focus of the project is to implement advanced search functionalities, including semantic search, to enhance the discoverability and accessibility of library mat…
+--------------------------------------------------
+
+Tytuł: Automation Tester
+Firma: ALTEN Polska
+Link: https://www.adzuna.pl/land/ad/5065817530?se=cFRceLH67xG5LFlwE8lqtQ&utm_medium=api&utm_source=a68048d5&v=D9AE52B0C956C298896AA06454F710DED8CE33FB
+Opis: Why us? We are part of the ALTEN Group – a leading European provider of engineering and technology consulting services. Over 30 years, we have become a major technology partner for many global clients, with more than 57 400 employees (88% of whom are engineers), in 30 countries around the world. We support our clients’ growth strategies in innovation, R&D and information systems, with revenues exceeding €4,069 billion. We were awarded the title of Great Place To Work 2023 and the „Ethics Standa…
+--------------------------------------------------
+
+Tytuł: Performance Tester
+Firma: Sii Sp. z o.o.
+Link: https://www.adzuna.pl/details/5064246628?utm_medium=api&utm_source=a68048d5
+Opis: Expected, Locust, Gatling, NeoLoad, LoadRunner, Performance TestsOptional, APM, Scala, C#About the project, Join the team of the largest Testing Services Center in Poland, created by testers for testers, in a company regularly awarded with Great Place to Work awards. We offer interesting projects and constant access to knowledge thanks to the training platform, webinars, and exchange of experiences within our Community, as well as development under the supervision of mentors. We are currently l…
+--------------------------------------------------
+
+Tytuł: Automation Tester
+Firma: Kyotu Technology
+Link: https://www.adzuna.pl/land/ad/5063077032?se=cFRceLH67xG5LFlwE8lqtQ&utm_medium=api&utm_source=a68048d5&v=1A935EA2285BFB35A964AB5AF8C951D571F73C0D
+Opis: Job Description: We are looking for an experienced Automation Tester to join our team and take responsibility for developing and maintaining automated tests. The person in this role will collaborate with developers, analysts, and other testers to ensure the highest quality of our products. Responsibilities: Creating, developing, and maintaining automated tests (UI/API/Performance) Analyzing and reporting test results Collaborating with the development team to identify and eliminate defects Crea…
+--------------------------------------------------
+
+Tytuł: Tester Automatyzujący (.NET, JS)
+Firma: Energa Informatyka i Technologie Sp. z o.o.
+Link: https://www.adzuna.pl/details/5062907569?utm_medium=api&utm_source=a68048d5
+Opis: Wymagane, Java, Python, C#, JavaScript, Selenium, SQL, Jira, HTML, CSSSystem operacyjny, Windows, LinuxTwój zakres obowiązków, Projektowanie, implementacja i utrzymanie automatycznych testów oprogramowania z wykorzystaniem technologii .NET i JavaScript, Tworzenie i wykonywanie skryptów testowych dla aplikacji mikroserwisowych, Współpraca z zespołem deweloperskim w celu identyfikacji obszarów wymagających testowania i automatyzacji, Analiza wymagań projektowych i tworzenie przypadków testowych z…
+--------------------------------------------------
+
+Tytuł: Tester Automatyzujący
+Firma: B2B.NET S.A.
+Link: https://www.adzuna.pl/details/5062907094?utm_medium=api&utm_source=a68048d5
+Opis: Wymagane, DB2, Oracle, SQL, Jira, Cucumber.js, Maven, Test Management Tool, Defect Tracking Tool, JavaO projekcie, Dołącz do zespołu zajmującego się testowaniem zmian w systemie monitorowania transakcji FACP w sektorze bankowym. Poszukujemy doświadczonego Testera Automatyzującego, który będzie odpowiedzialny za testowanie modyfikacji i integracji systemu, zapewniając jego stabilność oraz zgodność z wymaganiami biznesowymi. Osoba na tym stanowisku będzie pracować w środowisku Agile, współpracują…
+--------------------------------------------------
+
+Tytuł: Tester Automatyzujący
+Firma: B2B.NET S.A.
+Link: https://www.adzuna.pl/details/5062907089?utm_medium=api&utm_source=a68048d5
+Opis: Wymagane, DB2, Oracle, SQL, Jira, Cucumber.js, Maven, Test Management Tool, Defect Tracking Tool, JavaO projekcie, Dołącz do zespołu zajmującego się testowaniem zmian w systemie monitorowania transakcji FACP w sektorze bankowym. Poszukujemy doświadczonego Testera Automatyzującego, który będzie odpowiedzialny za testowanie modyfikacji i integracji systemu, zapewniając jego stabilność oraz zgodność z wymaganiami biznesowymi. Osoba na tym stanowisku będzie pracować w środowisku Agile, współpracują…
+--------------------------------------------------
+
+Tytuł: Tester automatyzujący
+Firma: Via Medica
+Link: https://www.adzuna.pl/details/5062907201?utm_medium=api&utm_source=a68048d5
+Opis: Wymagane, Git, Postman, SQLTwój zakres obowiązków, Przeprowadzenie (projektowanie, tworzenie i utrzymanie) testów automatycznych (70%) oraz manualnych (30%)., Prowadzenie dokumentacji testowej (listy błędów, ulepszeń i optymalizacji)., Konfiguracja środowiska testowego., Weryfikacja jakości skryptów automatycznych (Review)., Ścisła współpraca z zespołem developerów, analityków oraz biznesem., Analiza zgodności funkcjonowania systemu ze specyfikacją techniczną., Analiza, tworzenie i rozwijanie s…
+--------------------------------------------------
+
+Tytuł: IT Tester
+Firma: B2B Network
+Link: https://www.adzuna.pl/details/5062850263?utm_medium=api&utm_source=a68048d5
+Opis: Detailed description of work task to be carried out We are looking for an Manual Tester with strong knowledge of relevant standards and technologies, ideally with experience in the financial sector. The candidate should have a proactive mindset, be ISTQB certified, and possess excellent communication skills to work with stakeholders across different locations. What he /she will be doing The Agile tester will be responsible for testing changes that may impact FACP, the bank’s system used for tra…
+--------------------------------------------------
+
+Tytuł: IT Tester
+Firma: Jit Team
+Link: https://www.adzuna.pl/land/ad/5060558996?se=cFRceLH67xG5LFlwE8lqtQ&utm_medium=api&utm_source=a68048d5&v=4C0478C200AC86ABAC6CBAE54E646ACDD80C15DE
+Opis: Salary: 300-600pln/md B2B Location: Hybrid from Warsaw/Gdynia/Gdańsk Why choose this offer? You can expect a flexible work organization The international work environment will give you the opportunity to interact with the English language on a daily basis Scandinavian organizational culture will provide you with work-life balance, you will gain time for additional training (financed by Jit) The Jit community will bring you a nice time during regular integration meetings Project We are seeking a…
+--------------------------------------------------
+
+Tytuł: IT Tester
+Firma: Jit Team
+Link: https://www.adzuna.pl/land/ad/5060558984?se=cFRceLH67xG5LFlwE8lqtQ&utm_medium=api&utm_source=a68048d5&v=BBF17E4E48EAA68C148AD53A6F88B9FDB67B1935
+Opis: Salary: 300-600pln/md B2B Location: Hybrid from Warsaw/Gdynia/Gdańsk Why choose this offer? You can expect a flexible work organization The international work environment will give you the opportunity to interact with the English language on a daily basis Scandinavian organizational culture will provide you with work-life balance, you will gain time for additional training (financed by Jit) The Jit community will bring you a nice time during regular integration meetings Project We are seeking a…
+--------------------------------------------------
+
+Tytuł: Tester Automatyzujący
+Firma: B2Bnetwork
+Link: https://www.adzuna.pl/land/ad/5060559039?se=cFRceLH67xG5LFlwE8lqtQ&utm_medium=api&utm_source=a68048d5&v=71639C609C6AAF59DE7053CC395DBD6D64427CF6
+Opis: Dołącz do zespołu zajmującego się testowaniem zmian w systemie monitorowania transakcji FACP w sektorze bankowym. Poszukujemy doświadczonego Testera Automatyzującego, który będzie odpowiedzialny za testowanie modyfikacji i integracji systemu, zapewniając jego stabilność oraz zgodność z wymaganiami biznesowymi. Osoba na tym stanowisku będzie pracować w środowisku Agile, współpracując ze specjalistami z różnych lokalizacji. Zakres obowiązków: - Testowanie zmian w systemie FACP, zapewniając popraw…
+--------------------------------------------------
+
+Tytuł: Tester Automatyzujący
+Firma: B2Bnetwork
+Link: https://www.adzuna.pl/land/ad/5060558910?se=cFRceLH67xG5LFlwE8lqtQ&utm_medium=api&utm_source=a68048d5&v=70508967332443E31D182828667FC798E2A43A69
+Opis: Dołącz do zespołu zajmującego się testowaniem zmian w systemie monitorowania transakcji FACP w sektorze bankowym. Poszukujemy doświadczonego Testera Automatyzującego, który będzie odpowiedzialny za testowanie modyfikacji i integracji systemu, zapewniając jego stabilność oraz zgodność z wymaganiami biznesowymi. Osoba na tym stanowisku będzie pracować w środowisku Agile, współpracując ze specjalistami z różnych lokalizacji. Zakres obowiązków: - Testowanie zmian w systemie FACP, zapewniając popraw…
+--------------------------------------------------
+
+Tytuł: Tester ka integracji marketplace
+Firma: Baselinker
+Link: https://www.adzuna.pl/land/ad/5060558559?se=cFRceLH67xG5LFlwE8lqtQ&utm_medium=api&utm_source=a68048d5&v=D92078D7F31221B1C9D54900CC2832214824357D
+Opis: W BaseLinker rozwijamy innowacyjną platformę SaaS, która wspiera tysiące firm e-commerce na całym świecie, dając im realną przewagę nad konkurencją. Naszym celem jest umożliwienie pełnej integracji systemów, automatyzacji oraz optymalizacji procesów we wszystkich kanałach sprzedażowych. Zrealizowaliśmy ponad 1300 integracji z takimi globalnymi graczami jak Amazon, Shopify, eBay, Etsy, Allegro, WooCommerce, UPS, DHL . Mamy różne zespoły i całe spektrum możliwości rozwoju: integracje marketplace,…
+--------------------------------------------------
+
+Tytuł: Tester Manualny
+Firma: Energa Informatyka i Technologie Sp. z o.o.
+Link: https://www.adzuna.pl/details/5060430101?utm_medium=api&utm_source=a68048d5
+Opis: Wymagane, SQL, Postman, SoapUI, Swagger, HBase, Parquet, Azure DevOpsSystem operacyjny, Windows, LinuxTwój zakres obowiązków, Przygotowywanie scenariuszy i przypadków testowych., Przygotowywanie danych do testów., Realizacja testów na podstawie opracowanych scenariuszy., Dokumentowanie wyników realizacji testów., Zgłaszanie zidentyfikowanych błędów, retesty., Wsparcie testów INT i UAT., Współpraca z deweloperami i analitykami.Wykształcenie wyższe., Umiejętność testowania w środowisku API (np. P…
+--------------------------------------------------
+
+Tytuł: Automation Tester
+Firma: Link Group
+Link: https://www.adzuna.pl/land/ad/5059151724?se=cFRceLH67xG5LFlwE8lqtQ&utm_medium=api&utm_source=a68048d5&v=B289699E533055D9EFC9D87DE41B4EC4E393B099
+Opis: We are looking for an experienced Automation Tester to join our team and ensure the accuracy, reliability, and performance of data pipelines. In this role, you will work closely with data engineers, analysts, and business teams to validate ETL processes, identify issues, and optimize data quality across enterprise systems. Key Responsibilities: Design, develop, and execute ETL test plans and test cases to ensure data accuracy and transformation integrity. Perform data validation, integration, a…
+--------------------------------------------------
+
+Tytuł: Manual ETL Tester
+Firma: Link Group
+Link: https://www.adzuna.pl/land/ad/5059151691?se=cFRceLH67xG5LFlwE8lqtQ&utm_medium=api&utm_source=a68048d5&v=F26D55E298B42A5B1C7FE7BAD822937493D281C6
+Opis: We are looking for a skilled Manual Tester to join our team and ensure the integrity and performance of data pipelines. This role involves validating ETL processes, identifying issues, and collaborating with cross-functional teams to maintain high data quality standards. Key Responsibilities: Develop and execute ETL test plans and test cases to verify data accuracy and transformations. Perform data validation, integration, and end-to-end testing in Snowflake and/or Matillion environments. Ident…
+--------------------------------------------------
+
+Tytuł: Tester Automatyzujący
