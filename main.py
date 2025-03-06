@@ -15,7 +15,7 @@ APP_KEY = os.getenv("APP_KEY")
 
 # Funkcja do pobierania ofert z API Adzuna
 def get_jobs():
-    url = f"https://api.adzuna.com/v1/api/jobs/pl/search/1?app_id=a68048d5&app_key=APP_KEY&results_per_page=100&what=Tester&title_only=Tester&where=Gdansk&distance=50&sort_by=date"
+    url = f"https://api.adzuna.com/v1/api/jobs/pl/search/1?app_id=a68048d5&app_key={APP_KEY}&results_per_page=100&what=Tester&title_only=Tester&where=Gdansk&distance=50&sort_by=date"
     response = requests.get(url)
     if response.status_code == 200:
         try:
