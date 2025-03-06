@@ -189,25 +189,6 @@ def main():
     # Run initial check
     check_for_new_jobs()
 
-    # Schedule regular checks
-    for hour in [0, 3, 6, 9, 12, 15, 18, 21]:  # Co 3 godziny
-        schedule.every().monday.at(f"{hour:02d}:00").do(check_for_new_jobs)
-        schedule.every().tuesday.at(f"{hour:02d}:00").do(check_for_new_jobs)
-        schedule.every().wednesday.at(f"{hour:02d}:00").do(check_for_new_jobs)
-        schedule.every().thursday.at(f"{hour:02d}:00").do(check_for_new_jobs)
-        schedule.every().friday.at(f"{hour:02d}:00").do(check_for_new_jobs)
-    logger.info("Scheduled to check for new jobs every hour")
-
-    # Keep the script running
-    try:
-        while True:
-            schedule.run_pending()
-            time.sleep(60)
-    except KeyboardInterrupt:
-        logger.info("Script stopped by user")
-    except Exception as e:
-        logger.error(f"Unexpected error: {e}")
-
 
 if __name__ == "__main__":
     main()
