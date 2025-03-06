@@ -17,8 +17,15 @@ APP_KEY = os.getenv("APP_KEY")
 def get_jobs():
     url = f"https://api.adzuna.com/v1/api/jobs/pl/search/1?app_id=a68048d5&app_key={APP_KEY}&results_per_page=100&what=Tester&title_only=Tester&where=Gdansk&distance=50&sort_by=date"
     response = requests.get(url)
-    return response.json()
-
+    if response.status_code == 200:
+        try:
+            return response.json()  # Przekształcenie odpowiedzi na JSON
+        except ValueError:
+            print(f"Błąd dekodowania JSON. Odpowiedź: {response.text}")
+            return None
+    else:
+        print(f"Błąd zapytania API. Status: {response.status_code}, Treść: {response.text}")
+        return None
 
 # Funkcja do wczytywania już wysłanych ofert
 def load_sent_jobs():
