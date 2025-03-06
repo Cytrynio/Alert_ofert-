@@ -1,0 +1,39 @@
+name: Run Job Script
+
+on:
+  schedule:
+    # Codziennie o 8:00 (UTC), dopasuj to do swojej strefy czasowej
+    - cron: '0 8 * * *'
+  workflow_dispatch:
+    # Pozwól na ręczne uruchomienie workflow
+    # Możesz wywołać workflow ręcznie z GitHub'a
+    # Możesz to wywołać z poziomu GitHub UI, klikając w "Actions" i "Run workflow"
+  push:
+    # Uruchom skrypt przy każdym pushu do repozytorium
+    branches:
+      - main  # Uruchomi skrypt przy każdym pushu do głównej gałęzi
+
+jobs:
+  run-job:
+
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out the repository
+        uses: actions/checkout@v2
+
+      - name: Set up Python
+        uses: actions/setup-python@v2
+        with:
+          python-version: '3.x'  # Możesz dopasować wersję Pythona
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt  # Jeśli masz plik requirements.txt
+
+      - name: Run job script
+        env:
+          API_KEY: ${{ secrets.API_KEY }}
+          EMAIL_PASSWORD: ${{ secrets.EMAIL_PASSWORD }}
+        run: python main.py
