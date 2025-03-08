@@ -1,0 +1,2 @@
+# requirements-dev.txt (testy)
+pytest>=8.3.4
