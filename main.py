@@ -1,7 +1,6 @@
 import json
 import smtplib
 import time
-import schedule
 import requests
 import os
 import logging
