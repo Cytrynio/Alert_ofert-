@@ -2,10 +2,11 @@ name: Run Job Search Automation
 
 on:
   schedule:
-    # Run daily at 8:00 UTC
-    - cron: '0 */3 * * 1-5'
+    - cron: '0 8 * * 1-5'    # 8:00 UTC
+    - cron: '0 11 * * 1-5'   # 11:00 UTC
+    - cron: '0 14 * * 1-5'   # 14:00 UTC
+    - cron: '0 17 * * 1-5'   # 17:00 UTC
   workflow_dispatch:
-    # Allow manual workflow runs
   push:
     branches:
       - main
@@ -39,8 +40,23 @@ jobs:
           echo "LOCATION=${{ secrets.LOCATION || 'Gdansk' }}" >> .env
           echo "DISTANCE=${{ secrets.DISTANCE || '50' }}" >> .env
 
+      - name: Download previous sent_jobs.txt
+        uses: actions/download-artifact@v4
+        with:
+          name: sent-jobs
+          path: .
+        continue-on-error: true  # Kontynuuj, jeśli artefaktu nie ma (pierwsze uruchomienie)
+
       - name: Run job search script
         run: python main.py
+
+      - name: Upload sent_jobs.txt
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: sent-jobs
+          path: sent_jobs.txt
+          retention-days: 30
 
       - name: Upload logs
         if: always()

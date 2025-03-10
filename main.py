@@ -49,7 +49,7 @@ def get_jobs():
 
     try:
         response = requests.get(url, timeout=30)
-        response.raise_for_status()  # Raise exception for bad status codes
+        response.raise_for_status()
         return response.json()
     except requests.exceptions.RequestException as e:
         logger.error(f"API request error: {e}")
@@ -109,30 +109,21 @@ def format_job_listing(job):
     """Format a single job listing for email"""
     listing = f"Title: {job.get('title', 'No title')}\n"
     listing += f"Company: {job.get('company', {}).get('display_name', 'No company name')}\n"
-
-    # Get salary information if available
     if 'salary_min' in job and 'salary_max' in job:
         listing += f"Salary: {job.get('salary_min')} - {job.get('salary_max')} {job.get('salary_currency', 'PLN')}\n"
-
-    # Get location information
     location = job.get('location', {}).get('display_name', 'No location info')
     listing += f"Location: {location}\n"
-
-    # Add link and description
     listing += f"Link: {job.get('redirect_url', 'No link available')}\n"
     description = job.get('description', 'No description available')
-    # Trim description if too long
     if len(description) > 500:
         description = description[:497] + "..."
     listing += f"Description: {description}\n"
-
     listing += "-" * 50 + "\n\n"
     return listing
 
 
 def check_for_new_jobs():
     """Main function to check for and send new job listings"""
-    # Sprawdź czy dzisiaj jest dzień roboczy (0=poniedziałek, 6=niedziela w bibliotece time)
     current_day = time.localtime().tm_wday
     if current_day >= 5:  # 5=sobota, 6=niedziela
         logger.info("Dzisiaj jest weekend. Pomijam sprawdzanie ofert.")
@@ -152,7 +143,7 @@ def check_for_new_jobs():
     # Process new job listings
     email_body = ""
     new_jobs_count = 0
-    newly_sent_jobs = set(sent_jobs)
+    newly_sent_jobs = set(sent_jobs)  # Kopia zbioru sent_jobs
 
     for job in response_json["results"]:
         job_id = str(job.get("id", ""))
@@ -164,14 +155,15 @@ def check_for_new_jobs():
             newly_sent_jobs.add(job_id)
             new_jobs_count += 1
 
-    # Send email if new jobs found
+    # Send email and update sent jobs if new jobs found
     if new_jobs_count > 0:
         subject = f"{new_jobs_count} new {SEARCH_TERMS} job offers in {LOCATION}"
         email_sent = send_email(subject, email_body, EMAIL)
         if email_sent:
-            # Only update sent jobs if email was sent successfully
-            save_sent_jobs(newly_sent_jobs)
+            save_sent_jobs(newly_sent_jobs)  # Zapisz tylko po udanym wysłaniu emaila
             logger.info(f"Sent {new_jobs_count} new job listings")
+        else:
+            logger.warning("Email not sent. Not updating sent_jobs to retry next time.")
     else:
         logger.info("No new job listings found")
 
@@ -180,12 +172,10 @@ def main():
     """Main function to run the script"""
     logger.info("Starting job search monitoring...")
 
-    # Check environment variables
     if not APP_ID or not APP_KEY:
         logger.error("Adzuna API credentials not configured")
         return
 
-    # Run initial check
     check_for_new_jobs()
 
 
