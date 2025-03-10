@@ -44,7 +44,7 @@ jobs:
         uses: actions/download-artifact@v4
         with:
           name: sent-jobs
-          path: sent_jobs.txt
+          path: .
         continue-on-error: true  # Kontynuuj, jeśli artefaktu nie ma
 
       - name: Run job search script
