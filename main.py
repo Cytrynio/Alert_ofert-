@@ -133,12 +133,16 @@ def check_for_new_jobs():
 
     # Load previously sent jobs
     sent_jobs = load_sent_jobs()
+    logger.info(f"Loaded {len(sent_jobs)} previously sent job IDs")
 
     # Get current job listings
     response_json = get_jobs()
     if not response_json or "results" not in response_json:
         logger.error("Failed to retrieve job listings or invalid response format")
         return
+
+    total_jobs = len(response_json["results"])
+    logger.info(f"Retrieved {total_jobs} job listings from API")
 
     # Process new job listings
     email_body = ""
@@ -148,26 +152,31 @@ def check_for_new_jobs():
     for job in response_json["results"]:
         job_id = str(job.get("id", ""))
         if not job_id:
+            logger.warning("Job with no ID found, skipping")
             continue
 
         if job_id not in sent_jobs:
+            logger.info(f"Found new job: {job_id}")
             email_body += format_job_listing(job)
             newly_sent_jobs.add(job_id)
             new_jobs_count += 1
+
+    logger.info(f"Found {new_jobs_count} new jobs out of {total_jobs} total jobs")
 
     # Send email and update sent jobs if new jobs found
     if new_jobs_count > 0:
         subject = f"{new_jobs_count} new {SEARCH_TERMS} job offers in {LOCATION}"
         email_sent = send_email(subject, email_body, EMAIL)
         if email_sent:
-            save_sent_jobs(newly_sent_jobs)  # Zapisz tylko po udanym wysłaniu emaila
-            logger.info(f"Sent {new_jobs_count} new job listings")
+            save_sent_jobs(newly_sent_jobs)
+            logger.info(f"Sent {new_jobs_count} new job listings and saved {len(newly_sent_jobs)} job IDs to sent_jobs.txt")
         else:
-            logger.warning("Email not sent. Not updating sent_jobs to retry next time.")
+            logger.warning("Email sending failed, not updating sent_jobs.txt to retry next time")
+            # Opcjonalnie: Zapisz mimo niepowodzenia, jeśli chcesz uniknąć ponownego wysyłania
+            # save_sent_jobs(newly_sent_jobs)
+            # logger.info("Saved sent_jobs.txt despite email failure to avoid duplicates")
     else:
         logger.info("No new job listings found")
-
-
 def main():
     """Main function to run the script"""
     logger.info("Starting job search monitoring...")
