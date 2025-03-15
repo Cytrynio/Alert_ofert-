@@ -37,8 +37,6 @@ jobs:
           echo "ADZUNA_APP_ID=${{ secrets.ADZUNA_APP_ID }}" >> .env
           echo "ADZUNA_APP_KEY=${{ secrets.ADZUNA_APP_KEY }}" >> .env
           echo "SEARCH_TERMS=${{ secrets.SEARCH_TERMS || 'Tester' }}" >> .env
-          echo "LOCATION=${{ secrets.LOCATION || 'Gdansk' }}" >> .env
-          echo "DISTANCE=${{ secrets.DISTANCE || '50' }}" >> .env
 
       # Restore sent_jobs.txt from cache
       - name: Restore sent_jobs cache
@@ -57,22 +55,10 @@ jobs:
           echo "No cached sent_jobs.txt found. Creating empty file."
           touch sent_jobs.txt
 
-      # Debug step to see file contents
-      - name: Debug sent_jobs.txt
-        run: |
-          echo "sent_jobs.txt before running script:"
-          cat sent_jobs.txt || echo "File is empty or does not exist"
-
       - name: Run job search script
         run: python main.py
 
-      # Debug step to see updated file contents
-      - name: Debug updated sent_jobs.txt
-        run: |
-          echo "sent_jobs.txt after running script:"
-          cat sent_jobs.txt || echo "File is empty or does not exist"
-
-      # Upload logs as artifact (still useful for debugging)
+      # Upload logs as artifact for debugging
       - name: Upload logs
         if: always()
         uses: actions/upload-artifact@v4
