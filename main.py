@@ -43,7 +43,6 @@ def get_jobs():
         f"&app_key={APP_KEY}"
         f"&results_per_page=100"  # Maximum per page
         f"&what={SEARCH_TERMS}"
-        f"&where=Polska"  # Search in all of Poland
         f"&sort_by=date"
     )
 
