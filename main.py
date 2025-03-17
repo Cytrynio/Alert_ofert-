@@ -161,7 +161,7 @@ def check_for_new_jobs():
 
     # Send email and update sent jobs if new jobs found
     if new_jobs_count > 0:
-        subject = f"{new_jobs_count} new {SEARCH_TERMS} job offers in {LOCATION}"
+        subject = f"{new_jobs_count} new {SEARCH_TERMS} job offers in Poland"
         email_sent = send_email(subject, email_body, EMAIL)
         if email_sent:
             save_sent_jobs(newly_sent_jobs)
@@ -186,3 +186,4 @@ def main():
     check_for_new_jobs()
 
 if __name__ == "__main__":
+    main()
