@@ -185,5 +185,4 @@ def main():
 
     check_for_new_jobs()
 
-
 if __name__ == "__main__":
